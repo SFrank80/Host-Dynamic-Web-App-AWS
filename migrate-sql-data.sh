@@ -2,9 +2,9 @@
 
 S3_URI=s3://sf-sql-files/V1__shopwise.sql
 RDS_ENDPOINT=dev-rds-db.czsbrkswowxt.us-east-1.rds.amazonaws.com
-RDS_DB_NAME=applicationDB
-RDS_DB_USERNAME=Meeka80
-RDS_DB_PASSWORD=Aaliyah#0817
+RDS_DB_NAME=*****        # use your DB Name
+RDS_DB_USERNAME=******** # use your DB Username
+RDS_DB_PASSWORD=*******  # use your own credentials and never show them
 
 # Update all packages
 sudo yum update -y

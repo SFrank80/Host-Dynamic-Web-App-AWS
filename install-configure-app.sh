@@ -50,7 +50,7 @@ sudo systemctl enable mysqld
 sudo sed -i '/<Directory "\/var\/www\/html">/,/<\/Directory>/ s/AllowOverride None/AllowOverride All/' /etc/httpd/conf/httpd.conf
 
 # Environment Veriable
-S3_BUCKET_NAME=sf-project-webfiles
+S3_BUCKET_NAME=******* # Use your own bucket name
 
 # This command downloads the contents of the specified S3 bucket to the '/var/www/html' directory on the EC2 instance
 sudo aws s3 sync s3://"$S3_BUCKET_NAME" /var/www/html
